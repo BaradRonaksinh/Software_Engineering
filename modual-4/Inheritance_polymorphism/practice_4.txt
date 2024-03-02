@@ -1,0 +1,17 @@
+Compiling single file...
+--------
+- Filename: C:\Users\TC\OneDrive\Desktop\Doc\TOPS\Assignment\modual-4 SE\Inheritance_polymorphism\practice_3.cpp
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Processing C++ source file...
+--------
+- C++ Compiler: %BinDir0%\g++.exe
+- Command: g++.exe "C:\Users\TC\OneDrive\Desktop\Doc\TOPS\Assignment\modual-4 SE\Inheritance_polymorphism\practice_3.cpp" -o "C:\Users\TC\OneDrive\Desktop\Doc\TOPS\Assignment\modual-4 SE\Inheritance_polymorphism\practice_3.exe"  -I"%CppIncludeDir0%" -I"%CppIncludeDir1%" -I"%CppIncludeDir2%" -I"%CppIncludeDir2%\c++" -L"%LibDir0%" -L"%LibDir1%" -static-libgcc
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\TC\OneDrive\Desktop\Doc\TOPS\Assignment\modual-4 SE\Inheritance_polymorphism\practice_3.exe
+- Output Size: 1.83457851409912 MiB
+- Compilation Time: 0.55s
