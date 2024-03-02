@@ -1,0 +1,51 @@
+Q.2) What is Normalization?
+
+In databases
+
+Normalization is the process of organizing data in a database. It includes creating tables and establishing relationships between those tables. Normalization can also refer to a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
+
+
+Normalization
+
+A large database defined as a single relation may result in data duplication. This repetition of data may result in:
+
+Making relations very large.
+It isn't easy to maintain and update data as it would involve searching many records in relation.
+Wastage and poor utilization of disk space and resources.
+The likelihood of errors and inconsistencies increases.
+
+Why do we need Normalization?
+
+The main reason for normalizing the relations is removing these anomalies. Failure to eliminate anomalies leads to data redundancy and can cause data integrity and other problems as the database grows. Normalization consists of a series of guidelines that helps to guide you in creating a good database structure.
+
+
+Types of Normal Forms:
+
+1NF	A relation is in 1NF if it contains an atomic value.
+
+2NF	A relation will be in 2NF if it is in 1NF and all non-key attributes are fully 	functional dependent on the primary key.
+
+3NF	A relation will be in 3NF if it is in 2NF and no transition dependency exists.
+
+BCNF	A stronger definition of 3NF is known as Boyce Codd's normal form.
+
+4NF	A relation will be in 4NF if it is in Boyce Codd's normal form and has no multi-valued dependency.
+
+5NF	A relation is in 5NF. If it is in 4NF and does not contain any join dependency, joining should be lossless.
+
+
+Advantages of Normalization
+
+1. Normalization helps to minimize data redundancy.
+2. Greater overall database organization.
+3. Data consistency within the database.
+4. Much more flexible database design.
+5. Enforces the concept of relational integrity.
+
+
+Disadvantages of Normalization
+
+1. You cannot start building the database before knowing what the user needs.
+2. The performance degrades when normalizing the relations to higher normal forms, i.e., 4NF, 5NF.
+3. It is very time-consuming and difficult to normalize relations of a higher degree.
+4. Careless decomposition may lead to a bad database design, leading to serious problems.
