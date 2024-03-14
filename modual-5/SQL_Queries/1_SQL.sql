@@ -312,4 +312,49 @@ where pro_com = 16;
 
 alter table item_mast
 modify column pro_name to Item_name;
+
+
+-- 23.From the following table, write a SQL query to find the items whose prices
+-- are higher than or equal to $250. Order the result by product price in
+-- descending, then product name in ascending. Return pro_name and pro_price. -- 
+
+select pro_name from item_mast
+where pro_price >= 250 ;
+
+select * from item_mast
+order by pro_price  desc;
+
+select pro_name from item_mast 
+order by pro_name asc;
+
+
+-- 24.From the following table, write a SQL query to calculate average price ofthe -- 
+-- items for each company. Return average price and companycode -- 
+
+
+select avg(pro_price),pro_com
+from item_mast
+where pro_com = 11;
+
+select avg(pro_price),pro_com
+from item_mast
+where pro_com = 12;
+
+select avg(pro_price),pro_com
+from item_mast
+where pro_com = 13;
+
+select avg(pro_price),pro_com
+from item_mast
+where pro_com = 14;
+
+select avg(pro_price),pro_com
+from item_mast
+where pro_com = 15;
+
+select avg(pro_price),pro_com
+from item_mast
+where pro_com = 16;
+
+
  
