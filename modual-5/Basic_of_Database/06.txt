@@ -1,0 +1,3 @@
+Q.6) What is DDL Interpreter?
+
+DDL Interpreter interprets the DDL statements and records the generated statements in the table containing metadata.

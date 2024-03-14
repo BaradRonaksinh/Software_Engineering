@@ -1,0 +1,4 @@
+Q.5) What do you understand By Data Redundancy?
+
+Data redundancy is when multiple copies of the same information are stored in more than one place at a time. This challenge plagues organizations of all sizes in all industries and leads to elevated storage costs, errors, and compromised analytics. A typical example of this is customer information that is replicated across departments’ separate systems.
+(e.g., finance, marketing, sales).
