@@ -1,0 +1,46 @@
+
+3. What is SDLC? Explain each phase of SDLC
+
+SDLC stands for Software Development Life Cycle. It is a structured process that outlines the steps necessary to build high-quality software. The SDLC consists of several phases, each with its own set of activities and deliverables. The phases can vary slightly depending on the methodology used (e.g., Waterfall, Agile), but generally include:
+
+Planning:
+
+In this phase, project goals, scope, constraints, and resources are defined. Stakeholders collaborate to create a project plan, including timelines, budget, and required technologies.
+Key activities include conducting feasibility studies, defining project objectives, and creating a project plan.
+
+
+Analysis:
+
+The analysis phase involves gathering and documenting requirements from stakeholders. These requirements outline what the software system should do and how it should behave.
+Activities include interviewing users, observing current systems (if any), and documenting functional and non-functional requirements.
+
+
+Design:
+
+During the design phase, the system architecture and software design are developed based on the requirements gathered in the analysis phase. This phase translates the requirements into a blueprint for the software solution.
+Activities include creating system architecture diagrams, designing user interfaces, and defining data structures.
+
+
+Implementation (Coding):
+
+In this phase, developers write code according to the design specifications. The implementation phase is where the actual programming takes place, transforming the design into executable code.
+Activities include writing, testing, and debugging code based on the design documents.
+
+
+Testing:
+
+Testing ensures that the software meets the specified requirements and performs as expected. Testing is performed at various levels, including unit testing, integration testing, system testing, and user acceptance testing (UAT).
+Activities include creating test cases, executing tests, and reporting and resolving defects.
+
+
+Deployment:
+
+The deployment phase involves releasing the software to production environments or end-users. This phase includes activities such as installation, configuration, and user training.
+Deployment may also involve migrating data from legacy systems and ensuring that the software is compatible with existing infrastructure.
+
+
+Maintenance:
+
+Once the software is deployed, it enters the maintenance phase. During this phase, ongoing support and maintenance activities are performed, including fixing bugs, implementing updates, and adding new features.
+Maintenance may include corrective, adaptive, perfective, and preventive maintenance activities to ensure the software remains functional and relevant over time.
+These phases represent a high-level overview of the SDLC. Different methodologies may combine or iterate through these phases differently, but the core activities of planning, analysis, design, implementation, testing, deployment, and maintenance are common to most software development processes.

@@ -1,0 +1,5 @@
+6. What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+A user must provide appropriate details to securely Login. Software must check and verify the details at every attempt to Login. Here LOGIN is the Base Use Case and AUTHENTICATE is the Included Use Case.
+
+If a user enters appropriate details , user is allowed to Login. However if the details entered by the user are incorrect, software must be able to catch and display problem to the user and allow the user to re-enter details. LOGIN is hence a complete use case. However under certain situations it might use action corresponding to INVALID PASSWORD. Here LOGIN is the Base Use Case and INVALID PASSWORD is Extended Use Case.
